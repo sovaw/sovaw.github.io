@@ -1391,6 +1391,10 @@ svg circle{
 	.why-me > .reasons > div:nth-child(2){
 		margin-top: 25px;
 	}
+	
+	.all-theme{
+		width: 60px;
+	}
 
 	.footer{
 		display: flex;
