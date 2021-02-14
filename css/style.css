@@ -757,7 +757,7 @@ svg circle{
 
 .title-portfolio{
 	padding-top: 100px;
-	padding-bottom: 50px;
+	padding-bottom: 0px;
 }
 
 .portfolio > .my-portfolio{
