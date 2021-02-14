@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Sova - Siri-Помічник</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/animate.css">
+</head>
+<body>
+	<div class="container">
+		<div class="row wow bounceInDown">
+			<div class="column-12 main">
+				<center>
+					<h1 class="button">Розумна річ... - Siri</h1>
+				</center>
+			</div>
+		</div>
+		<div class="block n"></div>
+		<!-- <div class="row">
+			<div class="column-6 info wow bounceInLeft">Siri - персональний помічник і питально-відповідальна система, адаптована під iOS. Цей додаток спілкується природною мовою, щоб відповідати на питання і давати рекомендації.</div>
+			<div class="column-6 top wow bounceInLeft"><img src="img/siri_.jpg" width="100%" height="auto" alt=""></div>
+		</div>
+		<div class="row">
+			<div class="column-6 top wow bounceInRight"><img src="img/siri.jpg" width="100%" height="auto" alt=""></div>
+			<div class="column-6 info wow bounceInLeft">Siri пристосовується до кожного користувача індивідуально, вивчаючи його особливості протягом тривалого часу.</div>
+		</div> -->
+		<div class="row">
+			<div class="column-12 info wow bounceInLeft">Siri - персональний помічник і питально-відповідальна система, адаптована під iOS. Цей додаток спілкується природною мовою, щоб відповідати на питання і давати рекомендації. Siri пристосовується до кожного користувача індивідуально, вивчаючи його особливості протягом тривалого часу.</div>
+		</div>
+		<div class="row">
+			<div class="column-6 top wow bounceInRight"><img src="img/siri.jpg" width="100%" height="auto" alt=""></div>
+			<div class="column-6 top wow bounceInLeft"><img src="img/siri_.jpg" width="100%" height="auto" alt=""></div>
+		</div>
+		<div class="short">
+		<div class="row">
+			<div class="column-4">
+				<center class="wow bounceInRight">
+					<h1 id="show" class="name_start title">Появлення</h1>
+					<p id="p"class="p">У листопаді 2009 року група розробників отримала додаткове фінансування в розмірі 5 мільйонів від Menlo Ventures і Morgenthaler Venturesтих, але в цей раз на чолі з гонконзьким мільйонером Лі Цзяченом. Даг Кітлаусс покинув пост генерального директора після того як Apple випустила iPhone 4S.</p>
+				</center>
+			</div>
+			<div class="column-4">
+				<center>
+					<h1 id="show1" class="name title">Нова Ера</h1>
+					<p id="p1"class="p">У айфонах 7,8 та x(10) вона може: викликати вам таксі, перекачати гроші з картки на картку (при наявному підключенню до Apple Pay), подзвонити, смс, змінити базові параметри замість вас,переглянути ваші фотографії і навіть заспівати.</p>
+				</center>
+			</div>
+			<div class="column-4">
+				<center class="wow bounceInLeft">
+					<h1 id="show2" class="name_autor title">Розробник</h1>
+					<p id="p2" class="p">
+					"Спочатку Сірі була доступна в App Store як додаток для iOS від Siri Inc. Незабаром, 28 квітня 2010 року, Siri Inc. була придбана корпорацією Apple."
+					</p>
+				</center>
+			</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="column-12 main foot">
+				<center>
+					<h1 class="h12">©San-Sanich TEAM</h1>
+				</center>
+			</div>
+		</div>
+	</div>
+	<script src="js/wow.min.js"></script>
+	<script>
+		new WOW().init();
+	</script>
+	<script src="wow.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script>
+	$("#p").hide();
+    $("#p1").hide();
+    $("#p2").hide();
+
+    $("#show").click(function(){
+        $("#p").toggle(750);
+    });
+	$("#show1").click(function(){
+        $("#p1").toggle(750);
+    });
+    $("#show2").click(function(){
+        $("#p2").toggle(750);
+    });
+	</script>
+</body>
+</html>

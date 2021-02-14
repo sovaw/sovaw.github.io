@@ -1,0 +1,235 @@
+/*MAIN*/
+*{
+	box-sizing: border-box;
+	font-family: 'Lato', sans-serif;
+	font-size: 3vw;
+	color: white;
+	border-radius: 25px;
+}
+body{
+	background: white;
+}
+.container{
+	margin: 0 auto;
+	width: 100%;
+	padding: 10px;
+	position: relative;
+ 	background-position: center;
+ 	background-size: cover;
+ 	background-repeat: no-repeat;
+ 	background-attachment: fixed;
+ 	background-image: url(../img/siri.png);
+}
+body *{
+	padding: 10px;
+}
+/*GRID*/
+.row{
+	padding: 10px;
+}
+.row:after{
+	display: block;
+	content: '';
+	height: 0;
+	visibility: hidden;
+	clear: both;
+}
+[class*="column"]{
+	float: left;
+}
+.column-1{ width: calc(100%/12*1 - 5px) }
+.column-2{ width: calc(100%/12*2 - 5px) }
+.column-3{ width: calc(100%/12*3 - 5px) }
+.column-4{ width: calc(100%/12*4 - 5px) }
+.column-5{ width: calc(100%/12*5 - 5px) }
+.column-6{ width: calc(100%/12*6 - 5px) }
+.column-7{ width: calc(100%/12*7 - 5px) }
+.column-8{ width: calc(100%/12*8 - 5px) }
+.column-9{ width: calc(100%/12*9 - 5px) }
+.column-10{ width: calc(100%/12*10 - 5px) }
+.column-11{ width: calc(100%/12*11 - 5px) }
+.column-12{ width: calc(100%/12*12 - 5px) }
+/*NEWLY*/
+span{
+	line-height: 1.5;
+}
+.main{
+	color: white;
+}
+.foot{
+	border-top: 5px solid white;
+	border-radius: 0px;
+	font-size: 2vw;
+}
+.foot h1{
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+h2{
+	font-size: 7vw;
+	margin-bottom: 750px;
+}
+.name_start{
+	color: rgb(182, 46, 75);
+	font-size: 4vw;
+	box-shadow: 0px 0px 10px white;	
+	transition: 1s;
+}
+.name{
+	color: rgb(82, 69, 175);
+	font-size: 4vw;
+	box-shadow: 0px 0px 10px white;
+	transition: 1s;
+}
+.name_autor{
+	color: rgb(69, 144, 125);
+	font-size: 4vw;
+	box-shadow: 0px 0px 10px white;
+	transition: 1s;
+}
+[class*="name"]:hover{
+	box-shadow: 0px 0px 25px white;
+}
+p{
+	text-align: left;
+}
+.button{
+	color: white;
+	text-decoration: none;
+	position: relative;
+	text-align: center;
+	font-size: 6vw;
+}
+.button:before{
+	position: absolute;
+	content: "";
+	bottom: 0;
+	left: 50%;
+	width: 0%;
+	height: 2px;
+	transition: 0.7s;
+	background-image: linear-gradient(-90deg, white, red);
+}
+.button:after{
+	position: absolute;
+	content: "";
+	bottom: 0;
+	right: 0;
+	left: 50%;
+	width: 0%;
+	height: 2px;
+	transition: 0.7s;
+	background-image: linear-gradient(-90deg, red, white);
+}
+.button:hover:before{
+	width: 30%;
+	left: 50%;
+}
+.button:hover:after{
+	width: 30%;
+	left: 20%;
+}
+.top{
+	position: relative;
+}
+/*.top:after{
+	position: absolute;
+	content: "siri допоможе!";
+	font-size: 75px;
+	text-align: center;
+	bottom: 0;
+	right: 50%;
+	width: 0%;
+	height: 0%;
+	transition: 0.5s;
+	transition-delay: 0.5s;
+	background-color: black;
+	opacity: 0.3;
+	overflow: hidden;
+
+}*/
+.top:hover:after{
+	bottom: 0%;
+	right: -0%;
+	width: 100%;
+	height: 100%;
+}
+.top:before{
+	position: absolute;
+	content: "";
+	left: 0%;
+	top: 50%;
+	width: 0%;
+	height: 0%;
+	transition: 0.5s;
+	background-color: white;
+	opacity: 0.5;
+	overflow: hidden;
+
+}
+.top:hover:before{
+	left: 0%;
+	top: 0%;
+	width: 100%;
+	height: 100%;
+}
+.block{
+	height: 500px;
+}
+.info{
+	transition: 1s;
+}
+.info:hover{
+	background: black;
+}
+@media all and (max-width: 540px){
+	[class*="column"] {
+		width: 100%;
+		font-size: 7vw;
+	}
+	span{
+		line-height: 0.5;
+	}
+	.p{
+		font-size: 5vw;
+		color: #f0f4c3;
+	}
+	.title{
+		margin-top: -10vw;
+		font-size: 10vw;
+	}
+	.short{
+		margin-top: 20vw;
+	}
+	.info{
+		font-size: 6vw;
+		line-height: -1.5px;
+	}
+	.h12{
+		font-size: 5vw;
+	}
+	.bloch{
+		height: 0px;
+	}
+	.name_start{
+		color: rgb(182, 46, 75);
+		font-size: 8vw;	
+	}
+	.name{
+		color: rgb(82, 69, 175);
+		font-size: 8vw;
+	}
+	.name_autor{
+		color: rgb(69, 144, 125);
+		font-size: 8vw;
+	}
+	#p{
+		color: rgb(182, 46, 75);
+	}
+	#p1{
+		color: rgb(82, 69, 175);
+	}
+	#p2{
+		color: rgb(69, 144, 125);
+	}
+}
