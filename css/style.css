@@ -1337,7 +1337,7 @@ svg circle{
 	}
 
 	.footer{
-		font-size: 12px;
+		font-size: 14px;
 	}
 
 	.all-theme{
@@ -1401,7 +1401,8 @@ svg circle{
 }
 	
 	.all-theme{
-		width: 60px;
+		width: 55px;
+		height: 30px;
 	}
 
 	.footer{
@@ -1409,6 +1410,7 @@ svg circle{
 		flex-direction: column;
 		align-items: flex-start;
 		padding: 35px 15px;
+		font-size: 14px;
 	}
 
 	.footer > div:nth-child(2){
