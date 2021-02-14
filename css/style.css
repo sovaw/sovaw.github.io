@@ -1392,6 +1392,14 @@ svg circle{
 		margin-top: 25px;
 	}
 	
+	.social{
+		width: 100%;
+	}
+
+	.social > div{
+		width: 100%;
+}
+	
 	.all-theme{
 		width: 60px;
 	}
