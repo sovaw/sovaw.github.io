@@ -166,6 +166,10 @@ var mySwiper = new Swiper('.swiper-container', {
   breakpoints: {
      // when window width is >= 320px
      // when window width is >= 480px
+     10: {
+       slidesPerView: 1.2,
+       spaceBetween: 30
+     },
      480: {
        slidesPerView: 1.2,
        spaceBetween: 30
