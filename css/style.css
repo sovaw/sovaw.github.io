@@ -1319,7 +1319,7 @@ svg circle{
 	.why-me > .reasons{
 		width: 100%;
 		display: grid;
-		grid-template: 1fr  1fr/ auto auto;
+		grid-template: 1fr  1fr / auto auto;
 		align-items: center;
 		justify-content: space-between;
 	}
@@ -1347,6 +1347,11 @@ svg circle{
 }
 
 @media screen and (max-width: 600px), (max-device-width: 600px){
+	body, .contact, .footer, .header, .main, .title-policy{
+		padding-right: 20px;
+		padding-left: 20px;
+	}
+	
 	.main .photo{
 		display: none;
 	}
@@ -1359,9 +1364,18 @@ svg circle{
 	.contacts > .social{
 		margin-top: 35px;
 	}
+	
+	.footer{
+		padding: 35px 20px;
+	}
 }
 
 @media screen and (max-width: 550px), (max-device-width: 550px){
+	body, .contact, .footer, .header, .main, .title-policy{
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+	
 	.link-btn{
 		display: none;
 	}
@@ -1373,7 +1387,7 @@ svg circle{
 	.why-me > .reasons{
 		width: 100%;
 		display: grid;
-		grid-template: auto auto auto/ 1fr;
+		grid-template: auto auto auto / 1fr;
 		align-items: center;
 		justify-content: space-between;
 	}
@@ -1386,7 +1400,7 @@ svg circle{
 		display: flex;
 		flex-direction: column;
 		align-items: flex-start;
-		padding: 35px 30px;
+		padding: 35px 15px;
 	}
 
 	.footer > div:nth-child(2){
