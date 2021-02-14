@@ -37,7 +37,7 @@ window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
     let scrollPos = 740;
-    let scrollPos2 = 3050;
+    let scrollPos2 = 2450;
     let header = document.getElementById('header');
 
     if(document.body.scrollTop > scrollPos || document.documentElement.scrollTop > scrollPos) {
