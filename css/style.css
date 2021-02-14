@@ -1365,6 +1365,10 @@ svg circle{
 	.link-btn{
 		display: none;
 	}
+	
+	.logo > a{
+		font-size: 75px
+	}
 
 	.why-me > .reasons{
 		width: 100%;
