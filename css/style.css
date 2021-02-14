@@ -889,7 +889,7 @@ svg circle{
 	transform: scaleY(1);
 }
 
-.my-portfolio > div:nth-child(1) .project-img{
+.my-portfolio > div:nth-child(3) .project-img{
 	background-size: cover;
 	background-repeat: no-repeat;
 	-ms-background-position: top center;
@@ -905,7 +905,7 @@ svg circle{
 	background-image: url(../img/portfolio-2.png);
 }
 
-.my-portfolio > div:nth-child(3) .project-img{
+.my-portfolio > div:nth-child(1) .project-img{
 	background-size: cover;
 	background-repeat: no-repeat;
 	-ms-background-position: top center;
