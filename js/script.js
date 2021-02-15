@@ -149,7 +149,7 @@ var mySwiper = new Swiper('.swiper-container', {
 
   slidesPerView: 3,
 
-  freeMode: false,
+  freeMode: true,
 
   spaceBetween: 19,
 
