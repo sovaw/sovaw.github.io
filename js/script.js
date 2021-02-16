@@ -124,21 +124,21 @@ function first() {
 	firstTheme.style.border = "3px white solid";
 	secondTheme.style.border = "none";
 	thirdTheme.style.border = "none";
-	document.documentElement.style.setProperty("--theme", "#FF6332");
+	document.documentElement.style.setProperty("--theme", "#B132FF");
 }
 
 function second() {
 	firstTheme.style.border = "none";
 	secondTheme.style.border = "3px white solid";
 	thirdTheme.style.border = "none";
-	document.documentElement.style.setProperty("--theme", "#FFC332");
+	document.documentElement.style.setProperty("--theme", "#FF6332");
 }
 
 function third() {
 	firstTheme.style.border = "none"; 
 	secondTheme.style.border = "none";
 	thirdTheme.style.border = "3px white solid";
-	document.documentElement.style.setProperty("--theme", "#B132FF");
+	document.documentElement.style.setProperty("--theme", "#FFC332");
 }
 
 var mySwiper = new Swiper('.swiper-container', {
