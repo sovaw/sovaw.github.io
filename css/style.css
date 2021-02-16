@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
 
 :root{
-	--theme: #FF6332;
+	--theme: #B132FF;
 }
 
 *{
@@ -1042,17 +1042,17 @@ svg circle{
 }
 
 .first-theme{
-	background: #FF6332;
+	background: #B132FF;
 	border: 3px white solid;
 
 }
 
 .second-theme{
-	background: #ffc632;
+	background: #FF6332;
 }
 
 .third-theme{
-	background: #B132FF;
+	background: #ffc632;
 }
 
 .privacy-policy{
