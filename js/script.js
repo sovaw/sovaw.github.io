@@ -149,9 +149,9 @@ var mySwiper = new Swiper('.swiper-container', {
 
   slidesPerView: 3,
 
-  freeMode: true,
+  freeMode: false,
 
-  spaceBetween: 19,
+  spaceBetween: 25,
 
   loop: false,
 
@@ -168,20 +168,20 @@ var mySwiper = new Swiper('.swiper-container', {
      // when window width is >= 480px
      10: {
        slidesPerView: 1.2,
-       spaceBetween: 30
+       spaceBetween: 35
      },
      480: {
        slidesPerView: 1.2,
-       spaceBetween: 30
+       spaceBetween: 35
      },
      // when window width is >= 640px
      600: {
        slidesPerView: 2.1,
-       spaceBetween: 25
+       spaceBetween: 30
      },
      1024: {
        slidesPerView: 3,
-       spaceBetween: 19
+       spaceBetween: 25
      }
    },
 });
