@@ -1460,6 +1460,10 @@ svg circle{
 		flex-direction: column-reverse;
 		align-items: center;
 	}
+
+        .main .title-main{
+                width: 100%;
+        }
 	
 	.main .photo{
 		/*display: none;*/
