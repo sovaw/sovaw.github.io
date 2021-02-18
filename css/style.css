@@ -1458,11 +1458,12 @@ svg circle{
 
 	.main{
 		flex-direction: column-reverse;
-		align-items: flex-start;
+		align-items: center;
 	}
 	
 	.main .photo{
 		/*display: none;*/
+                margin-top: -50px;
 		margin-bottom: 25px;
 	}
 
