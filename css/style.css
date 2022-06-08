@@ -592,7 +592,7 @@ svg circle{
 	width: 100%;
 	max-width: 1024px;
 	height: 495px;
-	padding: 0 100px;
+	padding: 0 100px 0 0;
 }
 
 .swiper-container1{
